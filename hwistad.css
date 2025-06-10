@@ -1,0 +1,550 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+/*css varaible*/
+:root{
+    --primary-color: rgb(34, 11, 239);
+}
+
+    @font-face {
+        font-family: "Makara";
+        src: url("/fonts/Inter-VariableFont_opsz\,wght.ttf");
+    }
+
+    @font-face {
+        font-family: "Makara2";
+        src: url("/fonts/Anton-Regular.ttf");
+    }
+
+    
+    /*float right pair with clear right*/
+    .hero img{
+        float: right;
+        width: 30%;
+        margin-top: -180px;
+        margin-right: 80px;
+       
+    }   
+
+    .hero-content{
+       display: flex;
+       flex-direction:column;
+       justify-content: center;
+       margin-top: 15rem;
+       margin-left: 80px;
+    }
+    
+    .hero-content h1{
+        text-transform: uppercase;
+        font-family:sans-serif;
+        font-weight:700;
+        color: red;
+        font-size: 3rem;
+    }
+
+    header{
+          clear: right;
+    }
+
+    .input-box{
+        margin-left: 80px;
+        margin-top: 15px;
+        position: relative;
+    }
+    
+    .input-box input{
+        width: 25%;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: aquamarine;
+        
+        
+    }
+
+    .input-box i{
+        position: absolute;
+        left: 320px;
+        margin-top: 10px;
+    }
+
+    .myText {
+        text-align: center;
+        margin-top: 55px;
+        font-family: "Makara";
+        line-height: 50px;
+        margin-top: 7rem;
+    }
+
+    .myText h1 {
+        color: var(--primary-color);
+        font-size: 3.5rem;
+        font-family: "Makara2";
+    }
+
+    nav {
+        
+        background-color: antiquewhite;
+        width: 70%;
+        padding: 20px;
+        margin: auto;
+        margin-top: 80px;
+        border-radius: 10px;
+        
+
+    }
+
+    .myUl1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        list-style: none;
+    }
+
+    .myUl1 li a {
+        text-decoration: 0;
+
+    }
+
+    .myStyle1 {
+        background-color: blue;
+        padding: 5px;
+        border-radius: 5px;
+
+    }
+
+    .myStyle1 a {
+        color: #fff;
+    }
+
+     
+     .myImg1{
+          position: relative;
+     }
+   
+
+    .myImg1 img {
+        width: 90%;
+        border-radius: 5px;
+    }
+
+    .myImg1 i{
+        color: red;
+        font-size: 1.5rem;
+        position: absolute;
+        right: 35px;
+    }
+
+
+    .text2 {
+        background-color: bisque;
+        width: 100px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .text2 h4 {
+        text-align: center;
+        color: blueviolet;
+    }
+
+    .frFlex {
+        display: flex;
+    }
+
+    .icon {
+        margin-left: 150px;
+        margin-top: 7px;
+    }
+
+    .icon i {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-family: "Makara";
+        font-size: 1.3rem;
+        margin-top: 20px;
+
+    }
+
+    .myTwoSection p {
+        color: rgb(98, 96, 96);
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: "Makara";
+    }
+
+    .icon_list {
+        display: flex;
+        gap: 5px;
+
+    }
+
+
+    .icon_list i {
+        color: orange;
+    }
+
+    .pointText {
+        margin-left: 15px;
+    }
+
+    hr {
+        width: 80%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    .time {
+        display: flex;
+        gap: 2px;
+    }
+
+    .time i {
+        color: blue;
+    }
+
+    .lastText {
+        display: flex;
+        gap: 130px;
+    }
+
+    .lecture {
+        display: flex;
+    }
+
+    .lecture i {
+        color: red;
+    }
+
+    .myItem1 {
+        margin-top: 30px;
+    }
+
+    .myContainer{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+        margin-left: 45px;
+        margin-top: 2em;
+    }
+
+    .itemImage{
+        flex-basis: calc(100% / 4 - 25px);
+        background-color: #fff;  
+    }
+
+    .card_detail{
+        background-color: #f9f6f6;
+        border-radius: 10px;
+        padding-bottom: 30px;
+        padding-top: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 90%;
+    }
+
+    .time h4{
+        font-size: 0.8rem;
+    }
+
+    .headerContainer2{
+        background-color: blue;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .istad-container{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+        
+    }
+
+    .istadLogo{
+         display: flex;
+         gap: 15px;
+         padding: 5px;
+    }
+
+    .istadLogo img{
+        width: 60px;
+    }
+    
+   
+    .istadLogo h1{
+        text-transform: uppercase;
+        color: #f1ecec;
+        font-family: sans-serif;
+        padding-top: 15px;
+    }
+
+    ul{
+        list-style-type: none;
+        font-family: sans-serif;
+        font-size: 20px;
+        gap: 40px;
+        
+    }
+
+     nav ul li{
+        color: #fff;
+     }
+
+    .icon{
+        display: flex;
+        gap: 15px;
+        background-color: red;
+        padding: 11px;
+        border-radius: 25px;
+        margin-right: 10px;
+    }
+
+    .icon h4{
+        color: #fff;
+    }
+
+    .icon i{
+        color: #fff;
+        margin-top: -5px;
+    }
+
+
+    
+    @media (min-width:320px){
+                 .istad-container{
+                flex-direction: column;
+        }
+
+        .icon{
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+        .hero{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .hero img{
+            width: 70%;
+            margin-top: 30px;
+            margin-left: 70px;
+        }
+
+
+        .hero-content h1{
+            font-size: 1rem;
+        }
+    
+        .input-box input{
+            width: 70%;
+        }
+
+        .input-box i{
+            left: 250px;
+        }
+
+        .myText h1{
+            font-size: 30px;
+        }
+
+        .myText{
+            line-height: 23px;
+        }
+
+        ul{
+            flex-direction: column;
+            color: #f5f2f2;
+            text-align: center;
+            margin-top: 20px;
+            
+         }
+
+        nav ul li{
+            color: rgb(48, 177, 111);
+    
+        }
+
+        .hero-content{
+            margin-right: 45px;
+        }
+
+        .itemImage{
+            flex-basis: calc(500% / 2 - 20px);
+        }
+
+        .text2 {
+         width: 150px;
+        }
+
+        .text2 h4{
+            padding-top: 5px;
+        }
+
+        .frFlex {
+          justify-content: space-between;
+        }
+
+        .icon2 i{
+            font-size: 2rem;
+        }
+        
+        .nav ul{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .headerContainer2{
+            padding: 20px;
+            border-radius: 5px;
+            background: linear-gradient(90deg,rgba(52, 34, 212, 1) 0%, rgba(30, 48, 214, 1) 50%, rgb(94, 104, 240) 100%);
+        }
+    
+    }
+
+    @media (min-width: 768px) {
+
+        .istad-container{
+            flex-direction: inherit;
+        }
+
+        .nav ul{
+            margin-top: -5px;
+        }
+
+        .hero{
+            display: block;
+        }
+
+         .hero img{
+            
+            width: 30%;
+            margin-top: -100px;  
+         }
+
+        .courseSearch{
+            margin-top: -100px;
+         }
+
+         .input-box input{
+            width: 40%;
+         }
+
+         .hero-content h1{
+            font-size: 40px;
+         }
+
+         nav{
+            width: 90%;
+         }
+
+         ul{
+            flex-direction: row;
+            
+         }
+
+         .myUl1{
+            margin-top: 5px;
+         }
+
+         .myText{
+            line-height: 40px;
+         }
+
+         .myText h1{
+            font-size: 50px;
+         }
+
+         .itemImage {
+             flex-basis: calc(50% - 20px);
+    }
+            .icon {
+        margin-top: 0;
+        
+    }
+
+
+
+
+        
+
+
+        
+        
+
+        
+
+        
+        
+    }
+
+    @media (min-width: 1024px) {
+        .headerContainer2{
+            padding: 0;
+        }
+
+        .input-box i{
+            left: 350px;
+        }
+
+        .itemImage {
+        flex-basis: calc(100%/3 - 20px);
+    }
+        
+    }
+
+    @media (min-width: 1440px) {
+
+        .input-box input {
+            width: 20%;
+        }
+
+        .input-box i {
+            left: 240px;
+        }
+
+        .myText {
+            line-height: 60px;
+        }
+
+        .myText h1 {
+            font-size: 70px;
+        }
+
+        .myText p {
+            font-size: 40px;
+        }
+
+        .itemImage {
+            flex-basis: calc(100% / 4 - 20px);
+        }
+
+        
+
+    }
+        
+       
+
+        
+    
+
+
+
+ 
+
+        
+     
+
+
+
+        
+    
+    
+   
